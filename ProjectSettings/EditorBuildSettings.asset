@@ -5,8 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2dc414e9ad067134591f4773e31865db
+  - enabled: 1
+    path: Assets/Scenes/ARCamera.unity
+    guid: ae064f0f027007846a1030fcc7ed75ca
   m_configObjects:
     EasyAR.Settings: {fileID: 11400000, guid: 50109d3e81e9a974e89b1a4fd353d714, type: 2}
