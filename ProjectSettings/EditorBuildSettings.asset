@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARCamera.unity
     guid: ae064f0f027007846a1030fcc7ed75ca
+  - enabled: 1
+    path: Assets/Scenes/Search.unity
+    guid: 26c4cec0878cb504a9d21a2606ed4059
   m_configObjects:
     EasyAR.Settings: {fileID: 11400000, guid: 50109d3e81e9a974e89b1a4fd353d714, type: 2}

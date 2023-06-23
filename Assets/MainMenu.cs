@@ -8,6 +8,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void Search()
+    {
+        SceneManager.LoadScene(2);
+    }
     public void Exit()
     {
         Debug.Log("Игра закрыта");
