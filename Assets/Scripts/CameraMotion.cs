@@ -1,20 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraMotion : MonoBehaviour
 {
-    public Camera MainCamera;
-    public Transform MarkInside;
-    public Transform MarkAnother;
+    public Transform MainCamera;
+    public GameObject MarkInside;
+    public GameObject MarkAnother;
     public void MoveCameraToInside()
     {
-        MainCamera.transform.position = MarkInside.transform.position;
+        if (MainCamera.position == MarkInside.transform.position)
+            Debug.Log("Yes");
+        else
+            Debug.Log("No");
+        MainCamera.position = MarkInside.transform.position;
+        if (MainCamera.position == MarkInside.transform.position)
+            Debug.Log("Да");
         Debug.Log("Перемещение в эту аудит");
     }
     public void MoveCameraToAnother()
     {
-        MainCamera.transform.position = MarkAnother.transform.position;
+        MainCamera.position = MarkAnother.transform.position;
         Debug.Log("Перемещение в другую аудит");
     }
 }
